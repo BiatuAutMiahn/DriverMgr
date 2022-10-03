@@ -1,8 +1,17 @@
-# Git source of 7-Zip
+```
+DriverMgr is for windows deployment.
+-Download/Update Driverpacks
+-Generate DB with driver information
+-Consecutive runs load DB
 
-I used the discussion (https://sourceforge.net/p/sevenzip/discussion/45797/) announcement and history files for creating the git commits.
+Then:
+-Install on current hardware.
+-Create SFX installer for target hardware.
+-Extract drivers to directory.
 
-# See Also
-
+-User can specify HWID list, Target Arch, OS, etc.
+-Based on 7-zip standalone compressor/recompressor.
+```
+Based on:
 [7-Zip Homepage](https://www.7-zip.org/)
 [7-Zip @ sf.net](https://sourceforge.net/p/sevenzip/)
